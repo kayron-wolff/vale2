@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'sigmar';
+    src: url(fonts/sigmar.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'castle';
+    src: url(fonts/castle.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'mecha';
+    src: url(fonts/mecha.otf) format('opentype');
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+    max-height: 60vh;
+    margin: 0;
+    position: relative;
+    
+}
+
+#bgvideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    z-index: -1;
+    opacity: 100%;
+}
+
+
+
+#hometitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'mecha';
+    font-size: 80px;
+    background: linear-gradient(30deg, blue, red);
+    background-size: 1200px;
+    background-clip: unset;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+
+}
+
+
+#box {
+    background-color: rgba(136, 173, 2, 0.3);
+    border-radius: 20px;
+    padding: 40px;
+    max-width: 90%;
+    margin: 0 auto;
+    display: inline-block;
+    box-sizing: border-box;
+    position: absolute;
+    top: 75%;
+    left: 20%;
+    right: 20%;
+}
+
+#homesub {
+    font-family: 'sigmar';
+    font-size: 26px;
+    color: black;
+    text-align: center;
+    margin-top: none;
+}
+
+
+#nav{
+    position: fixed;
+    top: 2%;
+    z-index: 1000;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    left: 0;
+
+}
+
+#history{
+    text-decoration: none;
+    font-family: 'mecha';
+    color: white;
+    padding: 12px;
+    display: inline-block;
+    font-size: 22px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+#history:hover{
+    background-color: lightblue;
+    transition: 1s;
+    border-radius: 10px;
+    color: black;
+    zoom: 1.2;
+}
+
+#logo{
+    display: flex;
+    align-items: left;
+    height: 48px;
+    width: 48px;
+    margin-left: 1rem;
+    top: 2%;
+    position: fixed;
+}
