@@ -22,6 +22,13 @@
 }
 
 body{
-    margin: 12px;
+    margin: 8px;
     background-color: rgb(50,50,50);
+    text-indent: 8px;
+}
+
+.text{
+    font-size: 22px;
+    font-family: 'castle';
+
 }
