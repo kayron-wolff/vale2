@@ -3,9 +3,9 @@ let titulo = "Vale do Anahangabaú: História do Local";
 
         function rolarTitulo() {
             // Define o título exibido como uma parte do texto original
-            document.title = titulo.substring(indice) + " " + titulo.substring(0, indice);
+            document.title = titulo.substring(indice) + " | " + titulo.substring(0, indice);
             indice = (indice + 1) % titulo.length; // Avança o índice, reiniciando ao final
         }
 
         // Atualiza o título a cada intervalo de tempo
-        setInterval(rolarTitulo, 200); 
+        setInterval(rolarTitulo, 600); 
