@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'sigmar';
+    src: url(fonts/sigmar.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'castle';
+    src: url(fonts/castle.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'mecha';
+    src: url(fonts/mecha.otf) format('opentype');
+}
+
+#title{
+    font-size: 60px;
+    font-family: 'mecha';
+}
